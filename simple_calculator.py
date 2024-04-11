@@ -18,7 +18,7 @@ while True:
         num1,num2,ret=arithmetic_ops(lambda x,y:x/y)
     elif op=="%":
         num1,num2,ret=arithmetic_ops(lambda x,y:x%y)
-    elif:
+    else:
         print("invalid operation")
         continue
     print(f"{num1}{op}{num2}={ret}")
